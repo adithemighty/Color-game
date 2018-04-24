@@ -1,0 +1,77 @@
+body {
+  background-color: #232323;
+  margin: 0;
+  font-family:  'Montserrat', 'Avenir';
+  font-size: 1em;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  background-color: #4878ab;
+  font-weight: normal;
+  margin: 0;
+  padding: 40px 0;
+  font-size: 1.5em;
+  line-height: 1.1;
+}
+
+button {
+  border: none;
+  background-color: none;
+  font-size: 1em;
+  height: 100%;
+  font-weight: 700;
+  color: #4878ab;
+  letter-spacing: 1px;
+  transition: all 0.3s;
+  outline: none;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.stripe {
+  background-color: white;
+  text-align: center;
+  height: 30px;
+  margin-top: 0;
+}
+
+.guessingStatus {
+  color: #232323;
+  text-align: center;
+  background-color: white;
+  display: inline-block;
+  width: 20%;
+}
+
+.pickedColor {
+  font-size: 2em;
+}
+
+.square {
+  width: 30%;
+  padding-bottom: 30%;
+  float: left;
+  margin: 1.66%;
+  border-radius: 15%;
+  transition: background-color 0.6s;
+  -webkit-transition: background-color 0.6s;
+  -moz-transition: background-color 0.6s;
+}
+
+.container {
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+button:hover, .selected {
+  background-color: #4878ab;
+  color: white;
+}
+
+.hidden {
+  display: none;
+}
