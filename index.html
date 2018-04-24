@@ -2,37 +2,31 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="assets/css/todos.css">
-    <script rel="stylesheet" src="assets/js/lib/jquery-3.3.1.min.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Roboto" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
-    <title>Todo List</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <title>Color Game</title>
   </head>
   <body>
+    <h1 class='uppercase'>The great
+      <br>
+      <span class='pickedColor'>RGB</span>
+      <br>
+      guessing game</h1>
+    <div class="stripe">
+      <button class="reset uppercase">New Colors</button>
+      <span class="guessingStatus uppercase"></span>
+      <button class="easy mode uppercase">easy</button>
+      <button class="hard mode uppercase selected">hard</button>
+    </div>
     <div class="container">
-      <h1>To-do List
-        <i class="fas fa-plus"></i>
-      </h1>
-      <input type="text" name="" value="" placeholder="add new todo">
-      <ul>
-        <li class="todoItem">
-          <span class="delete">
-            <i class="fas fa-trash"></i>
-          </span>
-          do stuff</li>
-        <li class="todoItem">
-          <span class="delete">
-            <i class="fas fa-trash"></i>
-          </span>
-          do things</li>
-        <li class="todoItem">
-          <span class="delete">
-            <i class="fas fa-trash"></i>
-          </span>
-          do magic</li>
-      </ul>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
     </div>
 
-    <script type="text/javascript" src="assets/js/todos.js"></script>
+    <script type="text/javascript" src="script.js"></script>
   </body>
 </html>
